@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin|Herr+Von+Muellerhoff|Source+Sans+Pro:400,900&display=swap');
+
+/* Font Import for 'Cabin' , 'Herr Von Muellerhoff' , 'Sourse Sans Pro' */
+
+/* Start of Body CSS */
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+	min-height: 100vh;
+	background-image: linear-gradient(145deg, #16496F, #C80000);
+}
+
+.container {
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+	color: #FFF;
+}
+
+.container h1 {
+	font-size: 160px;
+	margin: 0;
+	font-weight: 900;
+	letter-spacing: 20px;
+	background: url(images/between-2.png) center no-repeat;
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+}
+
+.container a{
+	text-decoration: none;
+	background: #252525;
+	color: #fff;
+	padding: 12px 24px;
+	display: inline-block;
+	font-size: 14px;
+	text-transform: uppercase;
+	transition: 0.4s;
+}
+.container a:hover {
+	background: #001F48;
+}
+
+/* End of Body CSS */
+
+/* End of CSS for Default 404 Page */
