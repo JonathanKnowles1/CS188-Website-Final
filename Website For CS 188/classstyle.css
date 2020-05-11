@@ -523,12 +523,12 @@ header {
 		max-width: 11.4rem;
 	}
 
-	.restaurant-info {
+	.discover-info {
 		display: flex;
 		align-items: center;
 	}
 
-	.restaurant-info > div {
+	.discover-info > div {
 		flex: 1;
 	}
 
