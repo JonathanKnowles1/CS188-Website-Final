@@ -421,25 +421,6 @@ footer {
 	position: relative;
 }
 
-.back-to-top {
-	width: 7rem;
-	height: 7rem;
-	background-color: #121212;
-	position: absolute;
-	top: -3rem;
-	left: 50%;
-	transform: translateX(-50%);
-	border-radius: 50%;
-}
-
-.back-to-top i {
-	display: block;
-	color: #fff;
-	font-size: 2rem;
-	padding: 2rem;
-	animation: up 2.3s infinite;
-}
-
 .footer-content {
 	overflow: hidden;
 }
